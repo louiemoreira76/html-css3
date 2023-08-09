@@ -1,0 +1,484 @@
+
+#nav-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:whitesmoke;
+    width: 100%;
+    height: 70px;
+    padding: 0px 40px;
+}
+
+.pinto {
+    height: 100%;
+    width: 10px;
+}
+
+.login > a > button{
+    color: antiquewhite;
+    background-color:rgb(64, 179, 224) ;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#section-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 60px 120px 0px;
+}
+.section-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 950px;
+}
+
+.vandinha {
+    width: auto;
+    height: 400px;
+}
+
+.vandinha > img {
+    height: 350px;
+    margin-right: 40px;
+}
+
+.evento {
+    padding: 30px 0px 120px;
+    width: 450px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.evento > h1 {
+    font-family: 'letra0';
+    color: rgb(31, 31, 78);
+}
+
+.evento p {
+    font-family: 'letra0';
+    color: rgb(71, 68, 68);
+}
+
+.Infantil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+    width: 100px;
+    height: 30px;
+}
+
+.Infantil > a {
+    font-family: 'letre2';
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+
+.pao > p {
+    font-size: 18px;
+}
+
+.aparecer-button1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 8%;
+}
+
+.aparecer-button2 {
+    display: none;
+}
+
+.button > button {
+    background-color: rgb(64, 179, 224);
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#section-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 200px;
+    padding: 0px 0px;
+    
+}
+
+.section-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 950px;
+    height: 100%;
+}
+
+.section-02 h2 {
+    font-family: 'letra1';
+}
+
+.section-02 p {
+    font-family: 'letra0';
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.selecionar1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(64, 179, 224);
+    height: 50px;
+    width: 80px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.selecionar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(64, 179, 224);
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
+
+#section-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 80px 140px 40px;
+}
+
+#section-03 h1 {
+    font-family: 'letra1';
+    color: rgb(31, 31, 78);
+}
+
+#section-03 p {
+    font-family: 'letra0';
+    color: rgb(71, 68, 68);
+}
+
+.SobreEvento {
+    background-color: whitesmoke;
+    width: 950px;
+    height: auto;
+    padding: 20px;
+}
+
+.SobreEvento > h1 {
+    margin-bottom: 20px;
+}
+
+.meiaEpromo {
+    background-color: whitesmoke;
+    width: 950px;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.meiaEpromo > h1 {
+    margin-bottom: 20px;
+}
+
+#end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1d4459;
+    width: 100%;
+    padding: 20px 00px;
+}
+
+#end a {
+    font-family: 'letra0';
+}
+
+.grupo-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    width: 90%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0px 10px;
+}
+
+.cards > a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.cards > a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.cards > p {
+    color: white;
+}
+
+.aparecer-atendimento1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.aparecer-atendimento2 {
+    display: none;
+}
+
+.atendimento {
+    margin: 0px 10px;
+}
+
+.atendimento > a {
+    color: rgb(87, 194, 194);
+    font-family: 'letra0';
+    text-decoration: none;
+}
+
+.atendimento > a:hover {
+    text-decoration: underline;
+}
+
+.atendimento > p {
+    color: white;
+    font-family: 'letra0';
+}
+
+.face {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.face > a {
+    color: white;
+    font-family: 'letra0';
+    text-decoration: none;
+}
+
+.face > a:hover {
+    text-decoration: underline;
+}
+
+.face > a > img {
+    height: 40px;
+}
+
+.linha {
+    background-color: #1d4459 ;
+    padding: 0px 80px;
+    width: 100%;
+    height: 3px;
+}
+
+.info-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1d4459;
+    width: 100%;
+    padding: 15px;
+}
+
+.info-site > p {
+    color: rgb(151, 151, 151);
+    font-family: 'letra0';
+}
+
+@media(max-width: 990px) {
+    #section-01{
+        padding: 0px 170px;
+    }
+
+    .vandinha > img {
+        width: 350px;
+    }
+
+.meiaEpromo {
+    width: 700px;
+}
+
+.SobreEvento {
+    width: 700px;
+}
+
+.section-01 {
+    width: 700px;
+}
+
+.section-02 {
+    width: 700px;
+}
+
+@media (max-width: 770px) {
+
+    .section-01 {
+        flex-direction: column;
+        padding: 0px 0px 40px;
+    }    
+    
+    .vandinha {
+        width: unset;
+        height: unset;
+    }
+    
+    .vandinha > img {
+        width: unset;
+        height: 350px;
+    }
+    
+    .evento {
+        padding: 10px 0px;
+        width: 500px;
+        height: unset;
+        margin-left: unset;
+    }
+
+    .aparecer-button1 {
+        display: none;
+    }
+
+
+    .aparecer-button2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0 !important;
+
+        padding: 0px 10px;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .section-02 {
+        width: 500px;
+    }
+
+    .meiaEpromo {
+        width: 500px;
+    }
+    
+    .SobreEvento {
+        width: 500px;
+    }
+
+    #section-03 {
+        padding: 50px 20px 50px;
+    }
+
+    #end {  
+        flex-direction: column;
+    }
+    
+    .grupo-cards {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .grupo-cards a, p {
+        margin-bottom: 10px;
+    }
+
+    .aparecer-atendimento1 {
+        display: none;
+    }
+
+    .aparecer-atendimento2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .atendimento > p {
+        line-height: 30px;
+    }
+
+    .info-site {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media(max-width: 550px) {
+    #section-03 {
+        padding: 50px 0px 50px;
+    }
+
+    .SobreEvento {
+        width: 90%;
+    }
+
+    .meiaEpromo {
+        width: 90%;
+    }
+}

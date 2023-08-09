@@ -1,0 +1,351 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'discord9';
+}
+
+body {
+    min-height: 100%;
+}
+
+.topage {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(91, 116, 255);
+    width: 100% ;
+    height: 470px;
+}
+
+.informacoes-topage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.page-logo {
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0px 0px 45px;
+}
+
+.page-logo > img {
+    height: 30px;
+}
+
+.page-logo > h1 {
+    font-family: 'discord6';
+    font-size: 20px;
+    color: white;
+}
+
+.direcionadores {
+    display: flex;
+    flex-direction: row;
+}
+
+.direcionadores > a {
+    font-family: 'discord3';
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.direcionadores > a:hover {
+    text-decoration-line: underline;
+}
+
+.login > button {
+    border: none;
+    background-color: white;
+    width: 115px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 10px 30px 20px 0px;
+}
+
+.login > button:hover {
+    cursor: pointer;
+    color: black;
+    box-shadow: 0px 2px 0px 0px;
+    transition: 0.3s;
+}
+
+.name-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 760px;
+    width: 1000px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 40px;
+}
+
+.name > h1 {
+    font-family: 'discord1';
+    color: white;
+    font-size: 65px;
+    margin: 0px 0px 10px 0px;
+}
+
+.name > p {
+    color: white;
+    font-size: 20px;
+}
+
+.section1  {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+}
+
+.section1 > h1 {
+    font-size: 40px;
+    font-family: 'discord2';
+    margin: 0px 0px 20px 0px;
+}
+
+.section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    margin: 20px;
+}
+
+.cards {
+    width: 800px;
+    text-align: center;
+    padding: 50px;
+}
+
+.cards > p {
+    font-size: 20px;
+}
+
+.cards > h1 {
+    font-size: 23px;
+    font-family: 'discord4';
+    color: rgb(52, 89, 255);
+}
+
+.cards a {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+.sincronizacao {
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 3800px;
+}
+
+.sincronizacao > h1 {
+    font-family: 'discord1';
+    font-size: 45px;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.sincronizacao > p {
+    font-family: 'discord2';
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 30px 80px 30px;
+}
+
+.sessao-sincronizacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+
+.blocos {
+    background-color: white;
+    height: 800px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 20px 40px 20px 40px;
+}
+
+.bloco-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bloco-up > img {
+    height: 100px;
+    margin: 80px 0px 0px 0px;
+}
+
+.bloco-up > h1 {
+    font-family: 'discord3';
+    font-size: 35px;
+    margin: 30px 0px 0px 0px;
+}
+
+.desc {
+    font-family: 'discord2';
+    font-size: 18px;
+    margin: 20px 55px 0px 55px;
+}
+
+.bloco-meio {
+    display: flex;
+    flex-direction: column;
+}
+
+.blo-meio-edit {
+    display: flex;
+    flex-direction: row;
+    margin: 35px 80px 0px 80px;
+}
+
+.confere {
+    width: 20px;
+    height: 20px;
+    margin: 0px 8px 0px 0px;
+}
+
+.information {
+    font-family: 'discord9';
+    font-size: 15px;
+}
+
+.bt-addDiscord {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 0px 0px 0px;
+}
+
+.AddDiscord {
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
+    font-family: 'discord7';
+    margin: 50px 0px 0px 0px;
+}
+
+.bloco-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloco-down > a {
+    font-family: 'discord8';
+    font-size: 15px;
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+    margin:10px;
+}
+
+.pageend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 23, 36);
+    width: 100%;
+    height: 450px;
+}
+
+.agp-pageend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacoes-pageend {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    margin: 0px 80px 0px 30px;
+}
+
+.informacoes-pageend > h1 {
+    font-family: 'discord5';
+    font-size: 30px;
+    color: rgb(52, 89, 255);
+}
+
+.redes-local {
+    display: flex;
+    flex-direction: row;
+}
+
+.localidade {
+    background-color: rgb(19, 23, 36);
+    border: none;
+    color: white;
+    height: 20px;
+    width: 150px;
+    margin: 20px 0px 0px 0px;
+}
+
+.redes > img{
+    height: 30px;
+    margin: 20px 10px 0px 0px;
+}
+
+.termos-pageend {
+    display: flex;
+    flex-direction: row;
+}
+
+.termos {
+    display: flex;
+    flex-direction: column;
+}
+
+.termos > h1 {
+    font-family: 'discord8';
+    font-size: 20px;
+    color: rgb(52, 89, 255);
+}
+
+.termos > a {
+    font-family: 'discord8';
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.termos > a:hover {
+    text-decoration-line: underline;
+}
+
+.termos > h1 , a {
+    margin: 8px 100px 8px 40px;
+} 
+
+.linhaFinal {
+    background-color: rgb(52, 89, 255);
+    height: 2px;
+    width: 400px;
+}
